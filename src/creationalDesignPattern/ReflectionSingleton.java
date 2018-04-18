@@ -1,7 +1,8 @@
-package CreationalDesignPattern;
+package creationalDesignPattern;
 import java.lang.reflect.Constructor;
 public class ReflectionSingleton {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String arg[]) {
 		EagerSingleton instanceOne=EagerSingleton.getInstance();
 		EagerSingleton instanceTwo=null;

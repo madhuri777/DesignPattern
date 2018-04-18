@@ -1,4 +1,4 @@
-package CreationalDesignPattern;
+package creationalDesignPattern;
 
  class Test {
 

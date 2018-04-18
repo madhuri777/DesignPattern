@@ -1,10 +1,11 @@
-package CreationalDesignPattern;
+package creationalDesignPattern;
 
 public class ThreadSafeSingleton {
 
 	private static ThreadSafeSingleton instance;
 	
-	private void ThreadSafeSingleton() {}
+	
+	private ThreadSafeSingleton() {}
 	
 	public static synchronized ThreadSafeSingleton getInstance() {
 		if(instance==null) {

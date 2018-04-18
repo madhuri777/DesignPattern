@@ -1,7 +1,8 @@
-package CreationalDesignPattern;
+package creationalDesignPattern;
 
 public class StaticSingleton {
 
+	@SuppressWarnings("unused")
 	private static StaticSingleton instance;
 	
 	private StaticSingleton() {}

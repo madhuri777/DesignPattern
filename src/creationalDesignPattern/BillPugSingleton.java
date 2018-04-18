@@ -1,8 +1,9 @@
-package CreationalDesignPattern;
+package creationalDesignPattern;
 
 public class BillPugSingleton {
 
-	private void BillPugSingleton() {}
+	
+	private BillPugSingleton() {}
 	
 	private static class Helper{
 		private static final BillPugSingleton instance=new BillPugSingleton();
